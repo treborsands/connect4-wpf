@@ -1,0 +1,13 @@
+<Application x:Class="Connect4.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BoardBlueBrush" Color="#1565C0"/>
+        <SolidColorBrush x:Key="BoardDarkBlueBrush" Color="#0D47A1"/>
+        <SolidColorBrush x:Key="EmptyCellBrush" Color="#E3F2FD"/>
+        <SolidColorBrush x:Key="RedPlayerBrush" Color="#D32F2F"/>
+        <SolidColorBrush x:Key="YellowPlayerBrush" Color="#FBC02D"/>
+        <SolidColorBrush x:Key="BackgroundBrush" Color="#1A237E"/>
+    </Application.Resources>
+</Application>
